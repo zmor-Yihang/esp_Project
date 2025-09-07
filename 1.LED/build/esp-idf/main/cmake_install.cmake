@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/30495/Desktop/esp32Project/1.LED/main
+# Install script for directory: C:/Users/30495/Desktop/esp_Project/1.LED/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

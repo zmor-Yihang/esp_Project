@@ -1,2 +1,2 @@
-source C:/Users/30495/Desktop/esp32Project/1.LED/build/gdbinit/symbols
-source C:/Users/30495/Desktop/esp32Project/1.LED/build/gdbinit/connect
+source C:/Users/30495/Desktop/esp_Project/1.LED/build/gdbinit/symbols
+source C:/Users/30495/Desktop/esp_Project/1.LED/build/gdbinit/connect

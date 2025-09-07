@@ -1,4 +1,4 @@
-# Install script for directory: D:/esp_env/v5.5/esp-idf
+# Install script for directory: D:/esp_env/v5.5.1/esp-idf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,156 +39,156 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/xtensa/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/xtensa/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/esp_driver_gpio/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_driver_gpio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/esp_timer/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_timer/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/esp_pm/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_pm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/mbedtls/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/mbedtls/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/bootloader/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/bootloader/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/esptool_py/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esptool_py/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/partition_table/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/partition_table/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/esp_app_format/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_app_format/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/esp_bootloader_format/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_bootloader_format/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/app_update/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/app_update/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/esp_partition/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_partition/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/efuse/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/efuse/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/bootloader_support/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/bootloader_support/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/esp_mm/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_mm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/spi_flash/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/spi_flash/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/esp_system/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_system/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/esp_common/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/esp_rom/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_rom/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/hal/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/hal/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/log/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/log/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/heap/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/heap/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/soc/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/soc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/esp_security/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_security/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/esp_hw_support/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_hw_support/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/freertos/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/freertos/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/newlib/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/newlib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/pthread/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/pthread/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/cxx/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/cxx/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/BSP/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/BSP/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp32Project/2.KEY/build/esp-idf/main/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/main/cmake_install.cmake")
 endif()
 

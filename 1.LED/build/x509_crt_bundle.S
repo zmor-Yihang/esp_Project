@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/30495/Desktop/esp32Project/1.LED/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/30495/Desktop/esp_Project/1.LED/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)
