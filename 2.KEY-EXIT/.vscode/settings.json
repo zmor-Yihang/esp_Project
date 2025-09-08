@@ -1,0 +1,35 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPathWin": "d:\\esp_env\\v5.5.1\\esp-idf",
+  "idf.pythonInstallPath": "d:\\esp_env\\tools\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.portWin": "COM8",
+  "idf.toolsPathWin": "d:\\esp_env\\tools",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "d:\\esp_env\\tools\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=d:\\esp_env\\tools\\tools\\xtensa-esp-elf\\esp-14.2.0_20241119\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe",
+    "--compile-commands-dir=${workspaceFolder}\\build"
+  ],
+  "idf.flashType": "JTAG",
+  "files.associations": {
+    "freertos.h": "c",
+    "task.h": "c",
+    "esp_log.h": "c",
+    "led.h": "c",
+    "gpio.h": "c",
+    "key.h": "c",
+    "gpio_filter.h": "c",
+    "esp_types.h": "c",
+    "esp_err.h": "c",
+    "esp_heap_caps.h": "c",
+    "rtc_io.h": "c",
+    "interrupts.h": "c",
+    "sdkconfig.h": "c"
+  }
+}
