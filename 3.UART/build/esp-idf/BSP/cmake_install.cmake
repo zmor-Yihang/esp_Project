@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/30495/Desktop/esp_Project/2.KEY/components/BSP
+# Install script for directory: C:/Users/30495/Desktop/esp_Project/3.UART/components/BSP
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

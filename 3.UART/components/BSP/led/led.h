@@ -7,8 +7,8 @@
 #define LED_PIN GPIO_NUM_1
 
 // LED状态定义
-#define LED_ON  1
-#define LED_OFF 0
+#define LED_ON  0
+#define LED_OFF 1
 
 void led_init(void);
 

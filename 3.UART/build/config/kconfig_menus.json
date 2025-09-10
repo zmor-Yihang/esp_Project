@@ -7413,6 +7413,62 @@
             {
                 "children": [
                     {
+                        "children": [],
+                        "depends_on": "!RINGBUF_PLACE_ISR_FUNCTIONS_INTO_FLASH",
+                        "help": "If this option is not selected, UART interrupt will be disabled for a long time and\nmay cause data lost when doing spi flash operation.",
+                        "id": "UART_ISR_IN_IRAM",
+                        "name": "UART_ISR_IN_IRAM",
+                        "range": null,
+                        "title": "Place UART ISR function into IRAM",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "id": "component-config-esp-driver-uart-configurations",
+                "title": "ESP-Driver:UART Configurations",
+                "type": "menu"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "If this option is not selected, UHCI interrupt will be disabled for a long time and\nmay cause data lost when doing spi flash operation.",
+                        "id": "UHCI_ISR_HANDLER_IN_IRAM",
+                        "name": "UHCI_ISR_HANDLER_IN_IRAM",
+                        "range": null,
+                        "title": "Place UHCI ISR function into IRAM",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Enable this option to allow the ISR for UHCI to execute even when the cache is disabled.\nThis can be useful in scenarios where the cache might be turned off, but the UHCI\nfunctionality is still required to operate correctly.",
+                        "id": "UHCI_ISR_CACHE_SAFE",
+                        "name": "UHCI_ISR_CACHE_SAFE",
+                        "range": null,
+                        "title": "Allow UHCI ISR to execute when cache is disabled",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "whether to enable the debug log message for UHCI driver.\nNote that, this option only controls the UHCI driver log, won't affect other drivers.",
+                        "id": "UHCI_ENABLE_DEBUG_LOG",
+                        "name": "UHCI_ENABLE_DEBUG_LOG",
+                        "range": null,
+                        "title": "Enable debug log",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "id": "component-config-esp-driver-uhci-configurations",
+                "title": "ESP-Driver:UHCI Configurations",
+                "type": "menu"
+            },
+            {
+                "children": [
+                    {
                         "children": [
                             {
                                 "children": [
@@ -8546,6 +8602,35 @@
                 "depends_on": null,
                 "id": "component-config-power-management",
                 "title": "Power Management",
+                "type": "menu"
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": "RINGBUF_PLACE_FUNCTIONS_INTO_FLASH",
+                                "help": "Place ISR ringbuf functions (like xRingbufferSendFromISR/xRingbufferReceiveFromISR) into flash.\nThis frees up IRAM, but the functions can no longer be called when the cache is disabled\nor from an IRAM interrupt context.\n\nThis option is not compatible with ESP-IDF drivers which are configured to\nrun the ISR from an IRAM context, e.g. CONFIG_UART_ISR_IN_IRAM.",
+                                "id": "RINGBUF_PLACE_ISR_FUNCTIONS_INTO_FLASH",
+                                "name": "RINGBUF_PLACE_ISR_FUNCTIONS_INTO_FLASH",
+                                "range": null,
+                                "title": "Place ISR ringbuf functions into flash",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": null,
+                        "help": "Place non-ISR ringbuf functions (like xRingbufferCreate/xRingbufferSend) into flash.\nThis frees up IRAM, but the functions can no longer be called when the cache is disabled.",
+                        "id": "RINGBUF_PLACE_FUNCTIONS_INTO_FLASH",
+                        "name": "RINGBUF_PLACE_FUNCTIONS_INTO_FLASH",
+                        "range": null,
+                        "title": "Place non-ISR ringbuf functions into flash",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "id": "component-config-esp-ringbuf",
+                "title": "ESP Ringbuf",
                 "type": "menu"
             },
             {

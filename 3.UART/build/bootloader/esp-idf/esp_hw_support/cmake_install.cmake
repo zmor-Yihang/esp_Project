@@ -39,16 +39,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/bootloader/esp-idf/esp_hw_support/port/esp32s3/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/3.UART/build/bootloader/esp-idf/esp_hw_support/port/esp32s3/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/bootloader/esp-idf/esp_hw_support/mspi_timing_tuning/port/esp32s3/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/3.UART/build/bootloader/esp-idf/esp_hw_support/mspi_timing_tuning/port/esp32s3/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/30495/Desktop/esp_Project/2.KEY/build/bootloader/esp-idf/esp_hw_support/lowpower/cmake_install.cmake")
+  include("C:/Users/30495/Desktop/esp_Project/3.UART/build/bootloader/esp-idf/esp_hw_support/lowpower/cmake_install.cmake")
 endif()
 

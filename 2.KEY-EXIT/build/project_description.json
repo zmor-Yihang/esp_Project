@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "zmor",
-    "project_version":    "8d22eca-dirty",
+    "project_version":    "435d479-dirty",
     "project_path":       "C:/Users/30495/Desktop/esp_Project/2.KEY-EXIT",
     "idf_path":           "D:/esp_env/v5.5.1/esp-idf",
     "build_dir":          "C:/Users/30495/Desktop/esp_Project/2.KEY-EXIT/build",

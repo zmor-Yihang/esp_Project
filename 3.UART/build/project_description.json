@@ -1,13 +1,13 @@
 {
     "version":            "1.2",
     "project_name":       "zmor",
-    "project_version":    "8d22eca-dirty",
-    "project_path":       "C:/Users/30495/Desktop/esp_Project/2.KEY",
+    "project_version":    "435d479-dirty",
+    "project_path":       "C:/Users/30495/Desktop/esp_Project/3.UART",
     "idf_path":           "D:/esp_env/v5.5.1/esp-idf",
-    "build_dir":          "C:/Users/30495/Desktop/esp_Project/2.KEY/build",
-    "config_file":        "C:/Users/30495/Desktop/esp_Project/2.KEY/sdkconfig",
+    "build_dir":          "C:/Users/30495/Desktop/esp_Project/3.UART/build",
+    "config_file":        "C:/Users/30495/Desktop/esp_Project/3.UART/sdkconfig",
     "config_defaults":    "",
-    "bootloader_elf":     "C:/Users/30495/Desktop/esp_Project/2.KEY/build/bootloader/bootloader.elf",
+    "bootloader_elf":     "C:/Users/30495/Desktop/esp_Project/3.UART/build/bootloader/bootloader.elf",
     "app_elf":            "zmor.elf",
     "app_bin":            "zmor.bin",
     "build_type":         "flash_app",
@@ -21,27 +21,27 @@
     "monitor_toolprefix": "xtensa-esp32s3-elf-",
     "c_compiler":         "D:/esp_env/tools/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe",
     "config_environment" : {
-        "COMPONENT_KCONFIGS" : "D:/esp_env/v5.5.1/esp-idf/components/efuse/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_common/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_driver_gpio/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_mm/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_partition/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_pm/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_rom/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_security/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_system/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_timer/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/freertos/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/hal/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/heap/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/log/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/mbedtls/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/newlib/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/pthread/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/soc/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS" : "D:/esp_env/v5.5.1/esp-idf/components/efuse/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_common/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_driver_gpio/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_driver_uart/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_mm/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_partition/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_pm/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_ringbuf/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_rom/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_security/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_system/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/esp_timer/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/freertos/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/hal/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/heap/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/log/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/mbedtls/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/newlib/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/pthread/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/soc/Kconfig;D:/esp_env/v5.5.1/esp-idf/components/spi_flash/Kconfig",
         "COMPONENT_KCONFIGS_PROJBUILD" : "D:/esp_env/v5.5.1/esp-idf/components/bootloader/Kconfig.projbuild;D:/esp_env/v5.5.1/esp-idf/components/esp_app_format/Kconfig.projbuild;D:/esp_env/v5.5.1/esp-idf/components/esp_rom/Kconfig.projbuild;D:/esp_env/v5.5.1/esp-idf/components/esptool_py/Kconfig.projbuild;D:/esp_env/v5.5.1/esp-idf/components/partition_table/Kconfig.projbuild"
     },
     "common_component_reqs": [ "cxx", "newlib", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "xtensa" ],
-    "build_components" : [ "BSP", "app_update", "bootloader", "bootloader_support", "cxx", "efuse", "esp_app_format", "esp_bootloader_format", "esp_common", "esp_driver_gpio", "esp_hw_support", "esp_mm", "esp_partition", "esp_pm", "esp_rom", "esp_security", "esp_system", "esp_timer", "esptool_py", "freertos", "hal", "heap", "log", "main", "mbedtls", "newlib", "partition_table", "pthread", "soc", "spi_flash", "xtensa", "" ],
-    "build_component_paths" : [ "C:/Users/30495/Desktop/esp_Project/2.KEY/components/BSP", "D:/esp_env/v5.5.1/esp-idf/components/app_update", "D:/esp_env/v5.5.1/esp-idf/components/bootloader", "D:/esp_env/v5.5.1/esp-idf/components/bootloader_support", "D:/esp_env/v5.5.1/esp-idf/components/cxx", "D:/esp_env/v5.5.1/esp-idf/components/efuse", "D:/esp_env/v5.5.1/esp-idf/components/esp_app_format", "D:/esp_env/v5.5.1/esp-idf/components/esp_bootloader_format", "D:/esp_env/v5.5.1/esp-idf/components/esp_common", "D:/esp_env/v5.5.1/esp-idf/components/esp_driver_gpio", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support", "D:/esp_env/v5.5.1/esp-idf/components/esp_mm", "D:/esp_env/v5.5.1/esp-idf/components/esp_partition", "D:/esp_env/v5.5.1/esp-idf/components/esp_pm", "D:/esp_env/v5.5.1/esp-idf/components/esp_rom", "D:/esp_env/v5.5.1/esp-idf/components/esp_security", "D:/esp_env/v5.5.1/esp-idf/components/esp_system", "D:/esp_env/v5.5.1/esp-idf/components/esp_timer", "D:/esp_env/v5.5.1/esp-idf/components/esptool_py", "D:/esp_env/v5.5.1/esp-idf/components/freertos", "D:/esp_env/v5.5.1/esp-idf/components/hal", "D:/esp_env/v5.5.1/esp-idf/components/heap", "D:/esp_env/v5.5.1/esp-idf/components/log", "C:/Users/30495/Desktop/esp_Project/2.KEY/main", "D:/esp_env/v5.5.1/esp-idf/components/mbedtls", "D:/esp_env/v5.5.1/esp-idf/components/newlib", "D:/esp_env/v5.5.1/esp-idf/components/partition_table", "D:/esp_env/v5.5.1/esp-idf/components/pthread", "D:/esp_env/v5.5.1/esp-idf/components/soc", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash", "D:/esp_env/v5.5.1/esp-idf/components/xtensa", "" ],
+    "build_components" : [ "BSP", "app_update", "bootloader", "bootloader_support", "cxx", "efuse", "esp_app_format", "esp_bootloader_format", "esp_common", "esp_driver_gpio", "esp_driver_uart", "esp_hw_support", "esp_mm", "esp_partition", "esp_pm", "esp_ringbuf", "esp_rom", "esp_security", "esp_system", "esp_timer", "esptool_py", "freertos", "hal", "heap", "log", "main", "mbedtls", "newlib", "partition_table", "pthread", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "C:/Users/30495/Desktop/esp_Project/3.UART/components/BSP", "D:/esp_env/v5.5.1/esp-idf/components/app_update", "D:/esp_env/v5.5.1/esp-idf/components/bootloader", "D:/esp_env/v5.5.1/esp-idf/components/bootloader_support", "D:/esp_env/v5.5.1/esp-idf/components/cxx", "D:/esp_env/v5.5.1/esp-idf/components/efuse", "D:/esp_env/v5.5.1/esp-idf/components/esp_app_format", "D:/esp_env/v5.5.1/esp-idf/components/esp_bootloader_format", "D:/esp_env/v5.5.1/esp-idf/components/esp_common", "D:/esp_env/v5.5.1/esp-idf/components/esp_driver_gpio", "D:/esp_env/v5.5.1/esp-idf/components/esp_driver_uart", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support", "D:/esp_env/v5.5.1/esp-idf/components/esp_mm", "D:/esp_env/v5.5.1/esp-idf/components/esp_partition", "D:/esp_env/v5.5.1/esp-idf/components/esp_pm", "D:/esp_env/v5.5.1/esp-idf/components/esp_ringbuf", "D:/esp_env/v5.5.1/esp-idf/components/esp_rom", "D:/esp_env/v5.5.1/esp-idf/components/esp_security", "D:/esp_env/v5.5.1/esp-idf/components/esp_system", "D:/esp_env/v5.5.1/esp-idf/components/esp_timer", "D:/esp_env/v5.5.1/esp-idf/components/esptool_py", "D:/esp_env/v5.5.1/esp-idf/components/freertos", "D:/esp_env/v5.5.1/esp-idf/components/hal", "D:/esp_env/v5.5.1/esp-idf/components/heap", "D:/esp_env/v5.5.1/esp-idf/components/log", "C:/Users/30495/Desktop/esp_Project/3.UART/main", "D:/esp_env/v5.5.1/esp-idf/components/mbedtls", "D:/esp_env/v5.5.1/esp-idf/components/newlib", "D:/esp_env/v5.5.1/esp-idf/components/partition_table", "D:/esp_env/v5.5.1/esp-idf/components/pthread", "D:/esp_env/v5.5.1/esp-idf/components/soc", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash", "D:/esp_env/v5.5.1/esp-idf/components/xtensa", "" ],
     "build_component_info" : {
         "BSP": {
             "alias": "idf::BSP",
             "target": "___idf_BSP",
             "prefix": "idf",
-            "dir": "C:/Users/30495/Desktop/esp_Project/2.KEY/components/BSP",
+            "dir": "C:/Users/30495/Desktop/esp_Project/3.UART/components/BSP",
             "type": "LIBRARY",
             "lib": "__idf_BSP",
-            "reqs": [ "esp_driver_gpio" ],
+            "reqs": [ "esp_driver_gpio", "esp_driver_uart" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/BSP/libBSP.a",
-            "sources": [ "C:/Users/30495/Desktop/esp_Project/2.KEY/components/BSP/led/led.c", "C:/Users/30495/Desktop/esp_Project/2.KEY/components/BSP/key/key.c" ],
-            "include_dirs": [ "led", "key" ]
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/BSP/libBSP.a",
+            "sources": [ "C:/Users/30495/Desktop/esp_Project/3.UART/components/BSP/led/led.c", "C:/Users/30495/Desktop/esp_Project/3.UART/components/BSP/key/key.c", "C:/Users/30495/Desktop/esp_Project/3.UART/components/BSP/uart/uart.c" ],
+            "include_dirs": [ "led", "key", "uart" ]
         },
         "app_update": {
             "alias": "idf::app_update",
@@ -54,7 +54,7 @@
             "priv_reqs": [ "esptool_py", "efuse", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/app_update/libapp_update.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/app_update/libapp_update.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/app_update/esp_ota_ops.c", "D:/esp_env/v5.5.1/esp-idf/components/app_update/esp_ota_app_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -84,7 +84,7 @@
             "priv_reqs": [ "spi_flash", "mbedtls", "efuse", "heap", "esp_bootloader_format", "esp_app_format" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/bootloader_support/libbootloader_support.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/bootloader_support/libbootloader_support.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/bootloader_support/src/bootloader_common.c", "D:/esp_env/v5.5.1/esp-idf/components/bootloader_support/src/bootloader_common_loader.c", "D:/esp_env/v5.5.1/esp-idf/components/bootloader_support/src/bootloader_clock_init.c", "D:/esp_env/v5.5.1/esp-idf/components/bootloader_support/src/bootloader_mem.c", "D:/esp_env/v5.5.1/esp-idf/components/bootloader_support/src/bootloader_random.c", "D:/esp_env/v5.5.1/esp-idf/components/bootloader_support/src/bootloader_efuse.c", "D:/esp_env/v5.5.1/esp-idf/components/bootloader_support/src/flash_encrypt.c", "D:/esp_env/v5.5.1/esp-idf/components/bootloader_support/src/secure_boot.c", "D:/esp_env/v5.5.1/esp-idf/components/bootloader_support/src/bootloader_random_esp32s3.c", "D:/esp_env/v5.5.1/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash.c", "D:/esp_env/v5.5.1/esp-idf/components/bootloader_support/bootloader_flash/src/flash_qio_mode.c", "D:/esp_env/v5.5.1/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32s3.c", "D:/esp_env/v5.5.1/esp-idf/components/bootloader_support/src/bootloader_utility.c", "D:/esp_env/v5.5.1/esp-idf/components/bootloader_support/src/flash_partitions.c", "D:/esp_env/v5.5.1/esp-idf/components/bootloader_support/src/esp_image_format.c", "D:/esp_env/v5.5.1/esp-idf/components/bootloader_support/src/bootloader_sha.c", "D:/esp_env/v5.5.1/esp-idf/components/bootloader_support/src/esp32s3/secure_boot_secure_features.c" ],
             "include_dirs": [ "include", "bootloader_flash/include" ]
         },
@@ -99,7 +99,7 @@
             "priv_reqs": [ "esp_system", "pthread" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/cxx/libcxx.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/cxx/libcxx.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/cxx/cxx_exception_stubs.cpp", "D:/esp_env/v5.5.1/esp-idf/components/cxx/cxx_guards.cpp", "D:/esp_env/v5.5.1/esp-idf/components/cxx/cxx_init.cpp" ],
             "include_dirs": []
         },
@@ -114,7 +114,7 @@
             "priv_reqs": [ "bootloader_support", "soc", "spi_flash", "esp_system", "esp_partition", "esp_app_format" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/efuse/libefuse.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/efuse/libefuse.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/efuse/esp32s3/esp_efuse_table.c", "D:/esp_env/v5.5.1/esp-idf/components/efuse/esp32s3/esp_efuse_fields.c", "D:/esp_env/v5.5.1/esp-idf/components/efuse/esp32s3/esp_efuse_rtc_calib.c", "D:/esp_env/v5.5.1/esp-idf/components/efuse/esp32s3/esp_efuse_utility.c", "D:/esp_env/v5.5.1/esp-idf/components/efuse/src/esp_efuse_api.c", "D:/esp_env/v5.5.1/esp-idf/components/efuse/src/esp_efuse_fields.c", "D:/esp_env/v5.5.1/esp-idf/components/efuse/src/esp_efuse_utility.c", "D:/esp_env/v5.5.1/esp-idf/components/efuse/src/efuse_controller/keys/with_key_purposes/esp_efuse_api_key.c", "D:/esp_env/v5.5.1/esp-idf/components/efuse/src/esp_efuse_startup.c" ],
             "include_dirs": [ "include", "esp32s3/include" ]
         },
@@ -129,7 +129,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_app_format/libesp_app_format.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/esp_app_format/libesp_app_format.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/esp_app_format/esp_app_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -144,7 +144,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_bootloader_format/libesp_bootloader_format.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/esp_bootloader_format/libesp_bootloader_format.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/esp_bootloader_format/esp_bootloader_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -159,7 +159,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_common/libesp_common.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/esp_common/libesp_common.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/esp_common/src/esp_err_to_name.c" ],
             "include_dirs": [ "include" ]
         },
@@ -174,8 +174,23 @@
             "priv_reqs": [ "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_driver_gpio/libesp_driver_gpio.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/esp_driver_gpio/libesp_driver_gpio.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/esp_driver_gpio/src/gpio.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_driver_gpio/src/gpio_glitch_filter_ops.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_driver_gpio/src/rtc_io.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_driver_gpio/src/dedic_gpio.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_driver_gpio/src/gpio_pin_glitch_filter.c" ],
+            "include_dirs": [ "include" ]
+        },
+        "esp_driver_uart": {
+            "alias": "idf::esp_driver_uart",
+            "target": "___idf_esp_driver_uart",
+            "prefix": "idf",
+            "dir": "D:/esp_env/v5.5.1/esp-idf/components/esp_driver_uart",
+            "type": "LIBRARY",
+            "lib": "__idf_esp_driver_uart",
+            "reqs": [],
+            "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_ringbuf", "esp_mm" ],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/esp_driver_uart/libesp_driver_uart.a",
+            "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/esp_driver_uart/src/uart.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_driver_uart/src/uart_wakeup.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_driver_uart/src/uhci.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_hw_support": {
@@ -189,7 +204,7 @@
             "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "esp_security", "esp_driver_gpio", "esp_timer", "esp_pm", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_hw_support/libesp_hw_support.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/esp_hw_support/libesp_hw_support.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/cpu.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/port/esp32s3/esp_cpu_intr.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/esp_memory_utils.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/port/esp32s3/cpu_region_protect.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/esp_clk.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/clk_ctrl_os.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/hw_random.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/intr_alloc.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/mac_addr.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/periph_ctrl.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/revision.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/rtc_module.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/regi2c_ctrl.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/esp_gpio_reserve.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/sar_periph_ctrl_common.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/port/esp32s3/io_mux.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/port/esp32s3/esp_clk_tree.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/dma/esp_dma_utils.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/dma/gdma_link.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/spi_bus_lock.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/clk_utils.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/port/esp_clk_tree_common.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/spi_share_hw_ctrl.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/sleep_modem.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/sleep_modes.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/sleep_console.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/sleep_usb.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/sleep_gpio.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/sleep_event.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/dma/gdma.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/deprecated/gdma_legacy.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/dma/esp_async_memcpy.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/dma/async_memcpy_gdma.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/port/esp32s3/systimer.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/mspi_timing_tuning/mspi_timing_tuning.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/sleep_wake_stub.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/esp_clock_output.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/power_supply/brownout.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/port/esp32s3/rtc_clk.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/port/esp32s3/rtc_clk_init.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/port/esp32s3/rtc_init.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/port/esp32s3/rtc_sleep.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/port/esp32s3/rtc_time.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/port/esp32s3/chip_info.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/port/esp32s3/sar_periph_ctrl.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/port/esp32s3/esp_memprot.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/port/esp_memprot_conv.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/mspi_timing_tuning/port/esp32s3/mspi_timing_config.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_hw_support/lowpower/port/esp32s3/sleep_cpu.c" ],
             "include_dirs": [ "include", "include/soc", "include/soc/esp32s3", "dma/include", "ldo/include", "debug_probe/include", "mspi_timing_tuning/include", "mspi_timing_tuning/tuning_scheme_impl/include", "power_supply/include" ]
         },
@@ -204,7 +219,7 @@
             "priv_reqs": [ "heap", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_mm/libesp_mm.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/esp_mm/libesp_mm.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/esp_mm/esp_mmu_map.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_mm/port/esp32s3/ext_mem_layout.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_mm/esp_cache_msync.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_mm/esp_cache_utils.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_mm/heap_align_hw.c" ],
             "include_dirs": [ "include" ]
         },
@@ -219,7 +234,7 @@
             "priv_reqs": [ "esp_system", "spi_flash", "partition_table", "bootloader_support", "app_update" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_partition/libesp_partition.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/esp_partition/libesp_partition.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/esp_partition/partition.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_partition/partition_target.c" ],
             "include_dirs": [ "include" ]
         },
@@ -234,8 +249,23 @@
             "priv_reqs": [ "esp_system", "esp_driver_gpio", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_pm/libesp_pm.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/esp_pm/libesp_pm.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/esp_pm/pm_locks.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_pm/pm_trace.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_pm/pm_impl.c" ],
+            "include_dirs": [ "include" ]
+        },
+        "esp_ringbuf": {
+            "alias": "idf::esp_ringbuf",
+            "target": "___idf_esp_ringbuf",
+            "prefix": "idf",
+            "dir": "D:/esp_env/v5.5.1/esp-idf/components/esp_ringbuf",
+            "type": "LIBRARY",
+            "lib": "__idf_esp_ringbuf",
+            "reqs": [],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/esp_ringbuf/libesp_ringbuf.a",
+            "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/esp_ringbuf/ringbuf.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_rom": {
@@ -249,7 +279,7 @@
             "priv_reqs": [ "soc", "hal" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_rom/libesp_rom.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/esp_rom/libesp_rom.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/esp_rom/patches/esp_rom_sys.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_rom/patches/esp_rom_print.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_rom/patches/esp_rom_crc.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_rom/patches/esp_rom_uart.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_rom/patches/esp_rom_spiflash.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_rom/patches/esp_rom_efuse.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_rom/patches/esp_rom_gpio.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S", "D:/esp_env/v5.5.1/esp-idf/components/esp_rom/patches/esp_rom_systimer.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_rom/patches/esp_rom_wdt.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_rom/patches/esp_rom_cache_esp32s2_esp32s3.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_rom/patches/esp_rom_cache_writeback_esp32s3.S" ],
             "include_dirs": [ "include", "esp32s3/include", "esp32s3/include/esp32s3", "esp32s3" ]
         },
@@ -264,7 +294,7 @@
             "priv_reqs": [ "efuse", "esp_hw_support", "esp_system", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_security/libesp_security.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/esp_security/libesp_security.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/esp_security/src/init.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_security/src/esp_hmac.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_security/src/esp_ds.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_security/src/esp_crypto_lock.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_security/src/esp_crypto_periph_clk.c" ],
             "include_dirs": [ "include" ]
         },
@@ -279,7 +309,7 @@
             "priv_reqs": [ "spi_flash", "esp_timer", "esp_mm", "bootloader_support", "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_system/libesp_system.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/esp_system/libesp_system.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/esp_system/esp_err.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/crosscore_int.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/esp_ipc.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/esp_system_console.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/freertos_hooks.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/int_wdt.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/panic.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/esp_system.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/startup.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/startup_funcs.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/system_time.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/stack_check.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/ubsan.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/xt_wdt.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/task_wdt/task_wdt.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/task_wdt/task_wdt_impl_timergroup.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/cpu_start.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/panic_handler.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/esp_system_chip.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/image_process.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/esp_ipc_isr.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_port.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_routines.S", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/arch/xtensa/panic_arch.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack_asm.S", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers_asm.S", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/arch/xtensa/debug_stubs.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/arch/xtensa/trax.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/soc/esp32s3/highint_hdl.S", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/soc/esp32s3/clk.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/soc/esp32s3/reset_reason.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/soc/esp32s3/cache_err_int.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_system/port/soc/esp32s3/apb_backup_dma.c" ],
             "include_dirs": [ "include" ]
         },
@@ -294,7 +324,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/esp_timer/libesp_timer.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/esp_timer/libesp_timer.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/esp_timer/src/esp_timer.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_timer/src/esp_timer_init.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_timer/src/ets_timer_legacy.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_timer/src/system_time.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_timer/src/esp_timer_impl_common.c", "D:/esp_env/v5.5.1/esp-idf/components/esp_timer/src/esp_timer_impl_systimer.c" ],
             "include_dirs": [ "include" ]
         },
@@ -324,7 +354,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/freertos/libfreertos.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/freertos/libfreertos.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/freertos/heap_idf.c", "D:/esp_env/v5.5.1/esp-idf/components/freertos/app_startup.c", "D:/esp_env/v5.5.1/esp-idf/components/freertos/port_common.c", "D:/esp_env/v5.5.1/esp-idf/components/freertos/port_systick.c", "D:/esp_env/v5.5.1/esp-idf/components/freertos/FreeRTOS-Kernel/list.c", "D:/esp_env/v5.5.1/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c", "D:/esp_env/v5.5.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c", "D:/esp_env/v5.5.1/esp-idf/components/freertos/FreeRTOS-Kernel/timers.c", "D:/esp_env/v5.5.1/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c", "D:/esp_env/v5.5.1/esp-idf/components/freertos/FreeRTOS-Kernel/stream_buffer.c", "D:/esp_env/v5.5.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c", "D:/esp_env/v5.5.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S", "D:/esp_env/v5.5.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_init.c", "D:/esp_env/v5.5.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_overlay_os_hook.c", "D:/esp_env/v5.5.1/esp-idf/components/freertos/esp_additions/freertos_compatibility.c", "D:/esp_env/v5.5.1/esp-idf/components/freertos/esp_additions/idf_additions_event_groups.c", "D:/esp_env/v5.5.1/esp-idf/components/freertos/esp_additions/idf_additions.c" ],
             "include_dirs": [ "config/include", "config/include/freertos", "config/xtensa/include", "FreeRTOS-Kernel/include", "FreeRTOS-Kernel/portable/xtensa/include", "FreeRTOS-Kernel/portable/xtensa/include/freertos", "esp_additions/include" ]
         },
@@ -339,7 +369,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/hal/libhal.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/hal/libhal.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/hal/hal_utils.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/mpu_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/efuse_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/esp32s3/efuse_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/mmu_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/cache_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/color_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/spi_flash_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/spi_flash_hal_iram.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/spi_flash_encrypt_hal_iram.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/esp32s3/clk_tree_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/systimer_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/uart_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/uart_hal_iram.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/gpio_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/rtc_io_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/timer_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/ledc_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/ledc_hal_iram.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/i2c_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/i2c_hal_iram.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/rmt_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/pcnt_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/mcpwm_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/uhci_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/twai_hal_sja1000.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/gdma_hal_top.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/gdma_hal_ahb_v1.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/i2s_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/sdm_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/sdmmc_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/adc_hal_common.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/adc_oneshot_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/adc_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/lcd_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/mpi_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/sha_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/aes_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/brownout_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/spi_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/spi_hal_iram.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/spi_slave_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/spi_slave_hal_iram.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/spi_slave_hd_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/spi_flash_hal_gpspi.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/hmac_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/ds_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/cam_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/usb_serial_jtag_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/usb_dwc_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/usb_wrap_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/esp32s3/touch_sensor_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/touch_sensor_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/touch_sens_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/xt_wdt_hal.c", "D:/esp_env/v5.5.1/esp-idf/components/hal/esp32s3/rtc_cntl_hal.c" ],
             "include_dirs": [ "platform_port/include", "esp32s3/include", "include" ]
         },
@@ -354,7 +384,7 @@
             "priv_reqs": [ "soc" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/heap/libheap.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/heap/libheap.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/heap/heap_caps_base.c", "D:/esp_env/v5.5.1/esp-idf/components/heap/heap_caps.c", "D:/esp_env/v5.5.1/esp-idf/components/heap/heap_caps_init.c", "D:/esp_env/v5.5.1/esp-idf/components/heap/multi_heap.c", "D:/esp_env/v5.5.1/esp-idf/components/heap/tlsf/tlsf.c", "D:/esp_env/v5.5.1/esp-idf/components/heap/port/memory_layout_utils.c", "D:/esp_env/v5.5.1/esp-idf/components/heap/port/esp32s3/memory_layout.c" ],
             "include_dirs": [ "include", "tlsf" ]
         },
@@ -369,7 +399,7 @@
             "priv_reqs": [ "hal", "soc", "esp_hw_support" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/log/liblog.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/log/liblog.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/log/src/os/log_timestamp.c", "D:/esp_env/v5.5.1/esp-idf/components/log/src/log_timestamp_common.c", "D:/esp_env/v5.5.1/esp-idf/components/log/src/os/log_lock.c", "D:/esp_env/v5.5.1/esp-idf/components/log/src/buffer/log_buffers.c", "D:/esp_env/v5.5.1/esp-idf/components/log/src/os/util.c", "D:/esp_env/v5.5.1/esp-idf/components/log/src/util.c", "D:/esp_env/v5.5.1/esp-idf/components/log/src/log_format_text.c", "D:/esp_env/v5.5.1/esp-idf/components/log/src/log_print.c", "D:/esp_env/v5.5.1/esp-idf/components/log/src/log.c", "D:/esp_env/v5.5.1/esp-idf/components/log/src/os/log_write.c", "D:/esp_env/v5.5.1/esp-idf/components/log/src/log_level/log_level.c", "D:/esp_env/v5.5.1/esp-idf/components/log/src/log_level/tag_log_level/tag_log_level.c", "D:/esp_env/v5.5.1/esp-idf/components/log/src/log_level/tag_log_level/linked_list/log_linked_list.c", "D:/esp_env/v5.5.1/esp-idf/components/log/src/log_level/tag_log_level/cache/log_binary_heap.c" ],
             "include_dirs": [ "include" ]
         },
@@ -377,15 +407,15 @@
             "alias": "idf::main",
             "target": "___idf_main",
             "prefix": "idf",
-            "dir": "C:/Users/30495/Desktop/esp_Project/2.KEY/main",
+            "dir": "C:/Users/30495/Desktop/esp_Project/3.UART/main",
             "type": "LIBRARY",
             "lib": "__idf_main",
             "reqs": [],
             "priv_reqs": [ "BSP" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/main/libmain.a",
-            "sources": [ "C:/Users/30495/Desktop/esp_Project/2.KEY/main/main.c" ],
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/main/libmain.a",
+            "sources": [ "C:/Users/30495/Desktop/esp_Project/3.UART/main/main.c" ],
             "include_dirs": []
         },
         "mbedtls": {
@@ -399,8 +429,8 @@
             "priv_reqs": [ "soc", "esp_hw_support", "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/mbedtls/libmbedtls.a",
-            "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c", "C:/Users/30495/Desktop/esp_Project/2.KEY/build/x509_crt_bundle.S" ],
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/mbedtls/libmbedtls.a",
+            "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c", "C:/Users/30495/Desktop/esp_Project/3.UART/build/x509_crt_bundle.S" ],
             "include_dirs": [ "port/include", "mbedtls/include", "mbedtls/library", "esp_crt_bundle/include" ]
         },
         "newlib": {
@@ -414,7 +444,7 @@
             "priv_reqs": [ "soc", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/newlib/libnewlib.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/newlib/libnewlib.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/init.c", "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/abort.c", "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/assert.c", "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/heap.c", "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/locks.c", "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/poll.c", "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/pthread.c", "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/random.c", "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/getentropy.c", "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/termios.c", "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/stdatomic.c", "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/time.c", "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/sysconf.c", "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/realpath.c", "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/scandir.c", "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/syscalls.c", "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/reent_syscalls.c", "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/port/esp_time_impl.c", "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/flockfile.c", "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/reent_init.c", "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/newlib_init.c", "D:/esp_env/v5.5.1/esp-idf/components/newlib/src/port/esp_time_impl.c" ],
             "include_dirs": [ "platform_include" ]
         },
@@ -444,7 +474,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/pthread/libpthread.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/pthread/libpthread.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/pthread/pthread.c", "D:/esp_env/v5.5.1/esp-idf/components/pthread/pthread_cond_var.c", "D:/esp_env/v5.5.1/esp-idf/components/pthread/pthread_local_storage.c", "D:/esp_env/v5.5.1/esp-idf/components/pthread/pthread_rwlock.c", "D:/esp_env/v5.5.1/esp-idf/components/pthread/pthread_semaphore.c" ],
             "include_dirs": [ "include" ]
         },
@@ -459,7 +489,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/soc/libsoc.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/soc/libsoc.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/soc/lldesc.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/dport_access_common.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/interrupts.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/gpio_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/uart_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/adc_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/dedic_gpio_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/gdma_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/spi_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/ledc_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/pcnt_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/rmt_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/sdm_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/i2s_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/i2c_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/temperature_sensor_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/timer_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/lcd_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/mcpwm_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/mpi_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/sdmmc_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/touch_sensor_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/twai_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/wdt_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/usb_dwc_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/rtc_io_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/cam_periph.c", "D:/esp_env/v5.5.1/esp-idf/components/soc/esp32s3/power_supply_periph.c" ],
             "include_dirs": [ "include", "esp32s3", "esp32s3/include", "esp32s3/register" ]
         },
@@ -474,7 +504,7 @@
             "priv_reqs": [ "bootloader_support", "app_update", "soc", "esp_mm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/spi_flash/libspi_flash.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/spi_flash/libspi_flash.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/spi_flash/flash_brownout_hook.c", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash/esp32s3/spi_flash_oct_flash_init.c", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash/spi_flash_hpm_enable.c", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash/spi_flash_chip_drivers.c", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash/spi_flash_chip_generic.c", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash/spi_flash_chip_issi.c", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash/spi_flash_chip_mxic.c", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash/spi_flash_chip_gd.c", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash/spi_flash_chip_winbond.c", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash/spi_flash_chip_boya.c", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash/spi_flash_chip_mxic_opi.c", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash/spi_flash_chip_th.c", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash/memspi_host_driver.c", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash/cache_utils.c", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash/flash_mmap.c", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash/flash_ops.c", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash/spi_flash_wrap.c", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash/esp_flash_api.c", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash/esp_flash_spi_init.c", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash/spi_flash_os_func_app.c", "D:/esp_env/v5.5.1/esp-idf/components/spi_flash/spi_flash_os_func_noos.c" ],
             "include_dirs": [ "include" ]
         },
@@ -489,7 +519,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/esp-idf/xtensa/libxtensa.a",
+            "file": "C:/Users/30495/Desktop/esp_Project/3.UART/build/esp-idf/xtensa/libxtensa.a",
             "sources": [ "D:/esp_env/v5.5.1/esp-idf/components/xtensa/eri.c", "D:/esp_env/v5.5.1/esp-idf/components/xtensa/xt_trax.c", "D:/esp_env/v5.5.1/esp-idf/components/xtensa/xtensa_context.S", "D:/esp_env/v5.5.1/esp-idf/components/xtensa/xtensa_intr_asm.S", "D:/esp_env/v5.5.1/esp-idf/components/xtensa/xtensa_intr.c", "D:/esp_env/v5.5.1/esp-idf/components/xtensa/xtensa_vectors.S" ],
             "include_dirs": [ "esp32s3/include", "include", "deprecated_include" ]
         }
@@ -577,7 +607,7 @@
             "priv_reqs": [ "esp_driver_uart", "esp_driver_usb_serial_jtag" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "C:/Users/30495/Desktop/esp_Project/2.KEY/build" ]
+            "include_dirs": [ "C:/Users/30495/Desktop/esp_Project/3.UART/build" ]
         },
         "cxx": {
             "alias": "idf::cxx",
@@ -625,7 +655,7 @@
             "priv_reqs": [ "http_parser", "esp_timer", "lwip" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "C:/Users/30495/Desktop/esp_Project/2.KEY/build", "esp-tls-crypto" ]
+            "include_dirs": [ "C:/Users/30495/Desktop/esp_Project/3.UART/build", "esp-tls-crypto" ]
         },
         "esp_adc": {
             "alias": "idf::esp_adc",
@@ -1795,7 +1825,7 @@
             "alias": "idf::main",
             "target": "___idf_main",
             "prefix": "idf",
-            "dir": "C:/Users/30495/Desktop/esp_Project/2.KEY/main",
+            "dir": "C:/Users/30495/Desktop/esp_Project/3.UART/main",
             "lib": "__idf_main",
             "reqs": [],
             "priv_reqs": [ "BSP" ],
@@ -1807,33 +1837,33 @@
             "alias": "idf::BSP",
             "target": "___idf_BSP",
             "prefix": "idf",
-            "dir": "C:/Users/30495/Desktop/esp_Project/2.KEY/components/BSP",
+            "dir": "C:/Users/30495/Desktop/esp_Project/3.UART/components/BSP",
             "lib": "__idf_BSP",
-            "reqs": [ "esp_driver_gpio" ],
+            "reqs": [ "esp_driver_gpio", "esp_driver_uart" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "led", "key" ]
+            "include_dirs": [ "led", "key", "uart" ]
         },
         "chip": {
             "alias": "idf::chip",
             "target": "___idf_chip",
             "prefix": "idf",
-            "dir": "C:/Users/30495/Desktop/esp_Project/2.KEY/components/chip",
+            "dir": "C:/Users/30495/Desktop/esp_Project/3.UART/components/chip",
             "lib": "__idf_chip",
             "reqs": [],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "led", "key" ]
+            "include_dirs": [ "led", "key", "uart" ]
         }
     },
     "debug_prefix_map_gdbinit": "",
     "gdbinit_files": {
-        "01_symbols": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/gdbinit/symbols",
-        "02_prefix_map": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/gdbinit/prefix_map",
-        "03_py_extensions": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/gdbinit/py_extensions",
-        "04_connect": "C:/Users/30495/Desktop/esp_Project/2.KEY/build/gdbinit/connect"
+        "01_symbols": "C:/Users/30495/Desktop/esp_Project/3.UART/build/gdbinit/symbols",
+        "02_prefix_map": "C:/Users/30495/Desktop/esp_Project/3.UART/build/gdbinit/prefix_map",
+        "03_py_extensions": "C:/Users/30495/Desktop/esp_Project/3.UART/build/gdbinit/py_extensions",
+        "04_connect": "C:/Users/30495/Desktop/esp_Project/3.UART/build/gdbinit/connect"
     },
     "debug_arguments_openocd": "-f board/esp32s3-builtin.cfg"
 }

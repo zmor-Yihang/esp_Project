@@ -1,6 +1,7 @@
-idf_component_register(SRCS "led/led.c" "key/key.c"
-                       INCLUDE_DIRS "led" "key"
-                       REQUIRES esp_driver_gpio)
+idf_component_register(SRCS "led/led.c" "key/key.c" "uart/uart.c"
+                       INCLUDE_DIRS "led" "key" "uart"
+                       REQUIRES esp_driver_gpio esp_driver_uart)
+
 
 
 # # 自动收集所有子目录的源文件和头文件目录

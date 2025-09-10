@@ -13,8 +13,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file C:/Users/30495/Desktop/esp_Project/2.KEY/build/bootloader/bootloader.elf
+    add-symbol-file C:/Users/30495/Desktop/esp_Project/3.UART/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file C:/Users/30495/Desktop/esp_Project/2.KEY/build/zmor.elf
+file C:/Users/30495/Desktop/esp_Project/3.UART/build/zmor.elf

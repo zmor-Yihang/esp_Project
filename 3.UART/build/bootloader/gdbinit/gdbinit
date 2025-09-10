@@ -1,2 +1,2 @@
-source C:/Users/30495/Desktop/esp_Project/2.KEY/build/bootloader/gdbinit/symbols
-source C:/Users/30495/Desktop/esp_Project/2.KEY/build/bootloader/gdbinit/connect
+source C:/Users/30495/Desktop/esp_Project/3.UART/build/bootloader/gdbinit/symbols
+source C:/Users/30495/Desktop/esp_Project/3.UART/build/bootloader/gdbinit/connect
