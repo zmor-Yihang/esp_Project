@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "zmor",
-    "project_version":    "d5f36c7-dirty",
+    "project_version":    "f144f28-dirty",
     "project_path":       "C:/Users/30495/Desktop/esp_Project/4.Queue",
     "idf_path":           "D:/esp_env/v5.5.1/esp-idf",
     "build_dir":          "C:/Users/30495/Desktop/esp_Project/4.Queue/build",
@@ -637,7 +637,7 @@
             "priv_reqs": [ "esp_driver_uart", "esp_driver_usb_serial_jtag" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "C:/Users/30495/Desktop/esp_Project/4.Queue/build" ]
+            "include_dirs": [ "C:/Users/30495/Desktop/esp_Project/5.EXIT/build" ]
         },
         "cxx": {
             "alias": "idf::cxx",
@@ -685,7 +685,7 @@
             "priv_reqs": [ "http_parser", "esp_timer", "lwip" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "C:/Users/30495/Desktop/esp_Project/4.Queue/build", "esp-tls-crypto" ]
+            "include_dirs": [ "C:/Users/30495/Desktop/esp_Project/5.EXIT/build", "esp-tls-crypto" ]
         },
         "esp_adc": {
             "alias": "idf::esp_adc",

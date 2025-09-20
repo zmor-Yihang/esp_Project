@@ -1,0 +1,10 @@
+#include "user_queue.h"
+
+/* 消息队列句柄 */
+QueueHandle_t queueOfInfo_handle = NULL;
+
+void queue_init(void)
+{
+    /* 创建消息队列 */
+    queueOfInfo_handle = xQueueCreate(10, sizeof(uint8_t));
+}
